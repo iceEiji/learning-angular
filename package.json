@@ -9,6 +9,9 @@
     "test": "ng test"
   },
   "private": true,
+  "engines": {
+    "npm": "please_use_yarn_instead"
+  },
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/cdk": "15.2.3",
