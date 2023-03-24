@@ -6,13 +6,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent,
-        ToolbarComponent
-      ],
+      imports: [RouterTestingModule],
+      declarations: [AppComponent, ToolbarComponent],
     }).compileComponents();
   });
 
