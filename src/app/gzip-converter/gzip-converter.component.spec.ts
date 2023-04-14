@@ -8,9 +8,8 @@ describe('GzipConverterComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GzipConverterComponent ]
-    })
-    .compileComponents();
+      declarations: [GzipConverterComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(GzipConverterComponent);
     component = fixture.componentInstance;
