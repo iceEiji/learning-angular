@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { GzipConverterComponent } from './gzip-converter/gzip-converter.component';
+import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, GzipConverterComponent],
+  declarations: [AppComponent, ToolbarComponent, GzipConverterComponent, SideNavigationComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
