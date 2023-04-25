@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GzipConverterComponent } from './gzip-converter/gzip-converter.component';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 const routes: Routes = [
-  {path: 'gzip', component: GzipConverterComponent}
+  { path: '', component: IntroductionComponent },
+  { path: 'gzip', component: GzipConverterComponent },
 ];
 
 @NgModule({
