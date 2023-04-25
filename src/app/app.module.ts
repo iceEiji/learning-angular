@@ -10,7 +10,13 @@ import { SideNavigationComponent } from './side-navigation/side-navigation.compo
 import { IntroductionComponent } from './introduction/introduction.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, GzipConverterComponent, SideNavigationComponent, IntroductionComponent],
+  declarations: [
+    AppComponent,
+    ToolbarComponent,
+    GzipConverterComponent,
+    SideNavigationComponent,
+    IntroductionComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],

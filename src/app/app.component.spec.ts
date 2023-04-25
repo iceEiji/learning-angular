@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 
-
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
