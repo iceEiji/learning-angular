@@ -1,7 +1,15 @@
-<app-toolbar [title]="title"></app-toolbar>
+<header class="toolbar">
+  <h1 class="title">{{ title }}</h1>
+</header>
 
-<div class="contents">
-  <app-side-navigation></app-side-navigation>
+
+<div class="wrapper">
+  <aside>
+    <nav>
+      <a routerLink=".">Introduction</a>
+      <a routerLink="/gzip">Gzip</a>
+    </nav>
+  </aside>
   <main>
     <router-outlet></router-outlet>
   </main>
