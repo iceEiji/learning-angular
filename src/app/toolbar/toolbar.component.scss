@@ -1,3 +1,5 @@
+@import '../../sass/variables';
+
 .toolbar {
   position: fixed;
   top: 0;
@@ -5,7 +7,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
+  background-color: $mainColor;
   color: white;
   font-weight: 600;
 }
