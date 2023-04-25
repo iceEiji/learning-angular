@@ -14,8 +14,9 @@ a {
   text-decoration: none;
   padding: 16px;
   transition: all 0.3s ease;
+
   &:hover {
-    color: $mainColor;
+    color: $main-color;
     background: whitesmoke;
   }
 }
