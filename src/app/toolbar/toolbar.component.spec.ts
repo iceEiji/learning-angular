@@ -26,6 +26,6 @@ describe('ToolbarComponent', () => {
     component.title = 'learning-angular';
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.toolbar span.title')?.textContent).toContain('learning-angular');
+    expect(compiled.querySelector('.toolbar h1.title')?.textContent).toContain('learning-angular');
   });
 });

@@ -2,12 +2,14 @@ import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { SideNavigationComponent } from './side-navigation/side-navigation.component';
+
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [AppComponent, ToolbarComponent],
+      declarations: [AppComponent, ToolbarComponent, SideNavigationComponent],
     }).compileComponents();
   });
 
