@@ -9,7 +9,8 @@
     "watch": "ng build --watch --configuration=development",
     "test": "ng test",
     "lint": "ng lint",
-    "lint-fix": "eslint --cache --fix src/ && prettier --write src/"
+    "stylelint": "stylelint '**/*.scss'",
+    "auto-fix": "eslint --cache --fix src/ && stylelint '**/*.scss' --fix && prettier --write src/"
   },
   "private": true,
   "engines": {
@@ -51,6 +52,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "prettier": "^2.8.7",
+    "stylelint": "^15.6.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard-scss": "^9.0.0",
     "typescript": "~4.9.4"
   }
 }
